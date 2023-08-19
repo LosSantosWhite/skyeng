@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "skyeng"
+version = "0.1.0"
+description = ""
+authors = ["LosSantosWhite <69223894+LosSantosWhite@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.20"
+fastapi = "^0.101.1"
+pydantic-settings = "^2.0.3"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
